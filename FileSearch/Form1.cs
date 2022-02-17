@@ -27,7 +27,7 @@ namespace FileSearch
         {
             InitializeComponent();
             lblFilename.Text = " ";
-
+            //teeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeest
             if (Properties.Settings.Default.DirName != null) txtBxDirName.Text = Properties.Settings.Default.DirName;
             if (Properties.Settings.Default.FilePattern != null) txtBxFileName.Text = Properties.Settings.Default.FilePattern;
             if (Properties.Settings.Default.SearchText != null) txtBxSearch.Text = Properties.Settings.Default.SearchText;
